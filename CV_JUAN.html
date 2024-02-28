@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/stylesheets/style.css" />
+    <title>Curriculum Vitae</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Curriculum Vitae</h1>
+      
+    </header>
+
+    <!-- Nav: Inicio -->
+    <nav>
+      <ul>
+        <li><a href="#secciondatos">Datos Personales</a></li>
+        <li><a href="#seccionredes">Redes Sociales</a></li>
+        <li><a href="#seccionhabilidades">Habilidades</a></li>
+        <li><a href="#secciongaleria">Galería</a></li>
+        <li><a href="#seccioncontactenos">Contáctenos</a></li>
+      </ul>
+    </nav>
+    <!-- Nav: Fin -->
+
+    <section id="secciondatos">
+    
+      <h2>Datos personales</h2>
+      <span>Nombres:</span>
+      <span>Juan Carlos:</span>
+      <span>Apellidos:</span>
+      <span>Iglesias Torres:</span>
+
+    
+
+
+      <p>¡Hola! Soy Juan Carlos Iglesias Torres, con experiencia en desarrollo web en front end y
+        back end. Participo en todas las etapas
+        del ciclo de desarrollo de proyectos web dinámicos. Además, tengo
+        sólidos conocimientos en gestión de proyectos
+        y relaciones con los clientes.</p>
+
+    </section>
+
+    <section id="seccionredes">
+      <h2>Redes sociales</h2>
+
+      <span><a href="https://www.linkedin.com/">LinkedIn</a></span>
+      <span><a href="https://github.com/">Github</a></span>
+
+    </section>
+
+    <section id="seccionhabilidades">
+      <h2>Habilidades Profesionales</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>ReactJS</li>
+        <li>Django</li>
+        <li>Express</li>
+      </ul>
+
+      <h2>Idiomas</h2>
+      <table>
+        <caption><b>Habilidad en idiomas</b></caption>
+        <tr>
+          <th></th>
+          <th>A1</th>
+          <th>A2</th>
+          <th>B1</th>
+          <th>B2</th>
+          <th>C1</th>
+          <th>C2</th>
+        </tr>
+        <tr>
+          <th>Inglés</th>
+          <td></td>
+          <td></td>
+          <td><b>X</b></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>Portugues</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><b>X</b></td>
+        </tr>
+        <tr>
+          <th>Espanol</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><b>X</b></td>
+        </tr>
+      </table>
+
+      <h2>Contenidos Transversales</h2>
+      <ol>
+        <li>Docker</li>
+        <li>AWS</li>
+        <li>CI/CD</li>
+        <li>Scrum</li>
+      </ol>
+    </section>
+
+    <aside id="secciongaleria">
+      <img src="public/images/reading.jpg" alt="Reading" width="30">
+      <img
+        src="https://cdn.pixabay.com/photo/2015/05/29/19/18/cafe-789635_960_720.jpg"
+        alt="Foto de colaboración" width="30">
+
+    </aside>
+
+    <section id="seccioncontactenos">
+      <h2>Contáctame</h2>
+      <h3>Sus datos</h3>
+      
+      <form>
+        <label for="nombre">Nombres:</label><input type="text" name="nombre"
+          id="nombre">
+        <label for="nombre">Apellidos:</label><input type="text"
+          name="apellidos"
+          id="apellidos"><br>
+
+        <span>Seleccione su rango de edad</span><br>
+        <input type="radio" id="opcion1" name="edad" value="menor25"><label
+          for="opcion1"> menor a 25 años</label>
+        <input type="radio" id="opcion2" name="edad" value="entre26y20"><label
+          for="opcion2"> entre 26 y 30 años</label>
+        <input type="radio" id="opcion3" name="edad" value="mayor31"><label
+          for="opcion3"> mayor a 31 años</label><br><br>
+
+        <span>Seleccione el tipo de servicio a consultar<span><br>
+        <input type="checkbox" name="frontend" id="frontend"><label
+          for="frontend">Frontend Dev</label><br>
+        <input type="checkbox" name="backend" id="backend"><label for="backend">Backend
+          Dev</label><br>
+        <input type="checkbox" name="scrum" id="scrum"><label for="scrum">Desarrollo
+          de software</label><br>
+        <input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label><br>
+        <button type="submit">Enviar</button>
+      </form>
+
+
+      <h3>Ubicación</h3>
+      <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7973.080934976646!2d-79.40683761452719!3d-2.322659432444767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1705766802240!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+      </div>
+
+    </section>
+
+    <footer>
+        <address>
+          <span>Email: <a href="mailto:CORREO">Juanc.iglesiast@gmail.com</a></span>
+          <span>Tel: <a href="tel:+TELEFONO">(+593)984045875</a></span>
+         <span>DIRECCIÓN</span> 
+         <span>CIUDAD</span>
+         <span>PAÍS</span>
+        </address>
+      </footer>
+
+  </body>
+</html>
+<style>
+  
+  h1 {
+    font-style: italic;
+  }
+
+  #secciondatos {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+ 
+  h2 {
+    font-family: 'Open Sans',sans-serif;
+  }
+
+  p {
+    text-align:center
+  }
+
+  span{
+    text-align:center
+  }
+
+  #seccionredes{
+    width: 30%;
+    margin:0 auto;
+    text-align: center;
+
+  }
+
+  a{
+    font-weight: 600;
+    text-decoration:none;
+  }
+
+  .seccion{
+    width:50%;
+    margin:0 auto;
+    background-color:white;
+    padding:2%;
+    margin-top: 2%;
+    margin-bottom:2%;
+    box-shadow:0 1px 4px rgb(0 0 0 /24% green, blue)
+
+  }
+
+  #seccionhabilidades table td {
+    text-align:center;
+  }
+
+  #seccionhabilidades table{
+    margin:0 auto;
+  }
+
+  nav ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    
+  }
+
+  #secciondedatos p {
+    font-size: 1.4rem;
+    margin-top:6%;
+    color:#373B41
+  }
+
+  section h2 {
+    color:#0BCC7B;
+  }
+
+
+
+
+
+
+</style>
+
+ 
