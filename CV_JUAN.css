@@ -1,0 +1,341 @@
+
+
+
+  h1 {
+    font-family: "Gilmer", sans-serif;
+  }
+
+  #secciondatos {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+ 
+  h2 {
+    font-family: "Gilmer", sans-serif;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Gilmer:wght@300&display=swap');
+  .intro {
+    text-align:left;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gilmer', sans-serif;
+    font-weight: lighter; /* Para asegurar que se utilice la variante light */
+    font-weight: lighter;
+    line-height: 1.1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+    }
+
+    
+    
+    
+  
+
+  span{
+    text-align:center
+  }
+
+  #seccionredes{
+    width: 30%;
+    margin:0 auto;
+    text-align: center;
+
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Gilmer&display=swap');
+
+  a{
+    font-weight: 600;
+    text-decoration:none;
+    font-family: "Gilmer", sans-serif;
+  }
+
+  .seccion{
+    width:50%;
+    margin:0 auto;
+    background-color:white;
+    padding:2%;
+    margin-top: 2%;
+    margin-bottom:2%;
+    box-shadow:0 1px 4px rgb(0 0 0 /24% green, blue)
+
+  }
+
+  #seccionhabilidades table td {
+    text-align:center;
+  }
+
+  #seccionhabilidades table{
+    margin:0 auto;
+  }
+
+  #seccionhabilidades{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+  }
+
+  nav ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    background-color: #FFBF00;
+    border-radius: 30px;
+    height: 50px;
+    width: 70%;
+    align-items: center;
+    margin:0 auto;
+    margin-top: 20px;
+    
+    
+  }
+
+  nav ul a{
+    color: #fff;
+  }
+
+  nav{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:999;
+  }
+
+ 
+  #secciondedatos p {
+    font-size: 1.4rem;
+    margin-top:6%;
+    color:#373B41
+  }
+
+  #secciondatos{
+    width: 700px;
+    margin-top: 100px;
+  }
+
+  section h2 {
+    color:#FF7F0E;
+  }
+
+
+.contenido{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+}
+
+.presentacion p{
+    align-items: center;
+    justify-content: center;
+    height: 497px;
+    font-size: 18px;
+    margin:0;
+    color:#fff
+
+}
+
+.presentacion span{
+  background-color:#FF7F0E ;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.presentacion:hover span{
+  background-color:#FFBF00;
+
+}
+
+.presentacion{
+    width: 350px;
+    height: 450px;
+}
+
+
+.slider{
+    width: 350px;
+    height: 450px;
+}
+
+.slider .slide{
+    width: 350px;
+    height: 450px;
+}
+
+
+
+.botones button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 50%;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+  
+}
+
+.slider img{
+  border-radius: 20px;
+  border: 2px solid #FF7F0E; /* Cambia #ff0000 por el color que desees */
+  
+}
+
+.slide {
+  width: auto;
+  height:auto;
+  flex: 0 0 auto; /* Evita que las imágenes se agranden más allá de su tamaño original */
+  width: 100%; /* Hace que las imágenes ocupen el ancho completo del contenedor */
+  height: auto; 
+}
+
+.contenido {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top:0;
+  border: 2px solid #FF7F0E; /* Cambia #ff0000 por el color que desees */
+  border-radius: 20px;
+}
+
+
+ 
+
+.collage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+}
+
+.collage-item {
+  width: 100%;
+  height: 100%;
+  background-color: #ccc; /* Color de fondo temporal */
+  border: 2px solid #fff; /* Borde blanco */
+  border-radius: 5px;
+  aspect-ratio: 1 / 1; /* Mantener una relación de aspecto cuadrada */
+  overflow: hidden; /* Ocultar cualquier contenido adicional */
+  position: relative;
+  display: inline-block;
+}
+
+.collage-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajustar la imagen para llenar el contenedor */
+  animation-play-state: paused;
+}
+
+.collage-item img.active {
+  animation: playGifAnimation infinite; /* Añade una animación para reproducir el gif */
+}
+
+@keyframes playGifAnimation {
+  0% { visibility: hidden; }
+  100% { visibility: visible; }
+}
+
+
+.formulario form{
+  background-color: #fff;
+  height:200px ;
+  width:auto ;
+  
+  
+}
+
+#seccioncontactenos{
+  width: 45%;
+  height: 500px;
+  border:2px solid #FF7F0E;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  margin: 0 30px;
+  
+
+}
+
+.botonformulario{
+  height: 50px;
+}
+
+
+.botonformulario button{
+  height: 50px;
+  width: 200px;
+  font-family: "Gilmer", sans-serif;
+  font-size: 30px;
+  border-radius:20px;
+  background-color: #FF7F0E;
+  color:#fff;
+  border:#FF7F0E;
+  align-items: left;
+}
+
+.formulario input{
+  border-radius: 5px;
+  border: 2px solid #FF7F0E;
+  margin-top: 10px;
+  
+ 
+
+}
+
+.formulario span{
+  color: #FFBF00;
+  font-weight: bold;
+}
+
+.formulario label{
+  color: #FFBF00;
+  font-weight: bold;
+  
+}
+
+input::placeholder {
+  color: #FF7F0E; /* Cambia el color según tu preferencia */
+  
+}
+
+.final{
+  display:flex;
+}
+
+.presentacion {
+  height: 200px;
+  width: 250px;
+}
+ 
+
+
+.Llamame img{
+  height: 300px;
+  width: 278px;
+}
