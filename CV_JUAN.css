@@ -7,7 +7,7 @@
 
   #secciondatos {
     width: 50%;
-    margin: 0 auto;
+    margin: 0px;
   }
 
  
@@ -131,6 +131,8 @@
     display: flex;
     flex-direction: row;
     width: 700px;
+    border:0 ;
+    height: 550px;
 }
 
 .presentacion p{
@@ -167,7 +169,7 @@
 
 .slider .slide{
     width: 350px;
-    height: 450px;
+    height: 550px;
 }
 
 
@@ -326,6 +328,10 @@ input::placeholder {
 
 .final{
   display:flex;
+  justify-content: center;
+  margin:0 ;
+  padding: 0;
+  border: 0;
 }
 
 .presentacion {
@@ -338,4 +344,143 @@ input::placeholder {
 .Llamame img{
   height: 300px;
   width: 278px;
+}
+
+
+#titulobanner h2{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: #FF7F0E;
+
+}
+
+#Instituciones {
+  display: flex; /* Convierte al contenedor en un contenedor flexible */
+  flex-direction: row; /* Establece la dirección de los elementos secundarios en fila */
+  justify-content: space-around; /* Justifica el contenido a ambos lados del contenedor */
+  gap:20px;
+  background-color:#FFBF00;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  height: 120px;
+  width: 1200px;
+  overflow: hidden;
+  position: relative;
+  
+ 
+  
+}
+
+#Instituciones img {
+  height: 100px;
+  width: 150px; /* Para mantener la proporción original de las imágenes */
+  margin-right: 20px;
+  animation: moveRightToLeft 5s linear infinite; /* Animación para mover las imágenes */
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  transition: filter 0.3s; /* Agrega una transición suave */
+}
+
+#Instituciones:hover img {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+
+
+
+
+@keyframes moveRightToLeft {
+  0% {
+      transform: translateX(0%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
+.cierre{
+  align-items: right;
+}
+
+
+#inicio{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.filo{
+  height:554px ;
+  width:150px ;
+  background-color: #FF7F0E;
+  border-radius: 20px;
+  margin:20px;
+  margin-top:auto;
+
+  
+
+}
+
+.filo img{
+  height: 15px;
+  width: 15px;
+}
+
+.diploma{
+  height:554px ;
+  width:150px ;
+  background-color: #FF7F0E;
+  border-radius: 20px;
+  margin:20px;
+}
+
+.filosofia{
+  height: 721.83px;
+  
+
+  
+
+}
+
+.filosofia span{
+color: #fff;
+}
+
+
+
+.diplomas{
+  height: 721.83px;
+}
+
+.espacioblanco{
+  height: 167.82px;
+
+}
+
+.espacioblanco2{
+  height: 167.82px;
+  
+}
+
+
+.favicon-text{
+  display: flex;
+  gap:1px;
+  align-items: center;
+
+}
+
+ul, ol {
+  list-style-type: none;
+  justify-items: left;
+  padding: 10px;
+  margin: 10px ;
 }
